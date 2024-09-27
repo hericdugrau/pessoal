@@ -1,84 +1,199 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <script type="text/javascript" src="./index.js" defer=""></script>
-    <link rel="stylesheet" href="./index.css">
-  </head>
-
-  <body>
-    <hyml lang"pt-br"="">
-
-      <title>Cadastro do Cliiente</title>
-      <style>
-        body {
-          font-family: Arial, sans-serif;
-          margin: 0;
-          padding: 0;
-          background-color: #f2f2f2;
-        }
-
-        h2 {
-          text-align: center;
-        }
-
-        form {
-          max-width: 400px;
-          margin: 20px auto;
-          Background-color: #fff;
-          padding: 20px;
-          border-radius: 5px box-shadow: 0 0 10px rgba(0, 0, 0 0.1);
-        }
-
-        label,
-        input {
-          display: block;
-          margin-bottom: 10px;
-        }
-
-        input[type="text"],
-        input[type="email"],
-        input[type="tel"] {
-          width: 95%;
-          padding: 10px;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-        }
-
-        input[type="submit"] {
-          width: 100%;
-          padding: 10px;
-          border: none;
-          border-radius;
-          5px;
-          background-color: #007bff;
-          color: #fff;
-          cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-          background-color: #0056b3;
-        }
-      </style>
 
 
-      <h2>Cadastro De Pessoas</h2>
-      <form>
-        <label>Nome:</label>
-        <input type="text" id="nome" name="nome" required="">
+
+<head>
+  <title>Minha página pessoal</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 
-        <label>Email:</label>
-        <input type="Email" id="Email" name="Email" required="">
 
 
-        <label>Telefone:</label>
-        <input type="Tel" id="Telefone" name="Telefone" required="">
-        <input type="submit" value="Cadastrar">
-      </form>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
 
 
-    </hyml>
-  </body>
+
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+
+
+
+  header ul {
+    list-style: none;
+  }
+
+
+
+
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+
+
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+
+
+  section {
+    margin: 20px 0;
+  }
+
+
+  section#sobre,
+  section#projetos,
+  section#cadastro,
+  section#contato {
+    background-color: #fff;
+    padding: 20px;
+    boder-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+  }
+
+
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  h3{
+  text-align: center;
+}
+form {
+  max-width: 400px;
+    margin: 20px auto;
+    Background-color: #fff;
+    padding: 20px;
+    border-radius: 5px
+    box-shadow: 0 0 10px rgba(0, 0, 0 0.1);
+}
+label,
+input {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+width: 95%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+input[type="submit"]{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  horder-radius; 5px;
+  background-color: #007bff;
+  color:#fff;
+  cursor:pointer;
+}
+input[type="submit"]:hover{
+  background-color: #fff;
+}
+
+
+</style>
+
+
+
+
+<body>
+  <header>
+    <h1>Bem vindo a página de Heric pilonetto de oliveira</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#cadastro">cadastro</a></li>
+        <li><a href="#contato">contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>eu sou Heric tenho 14 anos moro na cidade de Videira(SC),E eu tenho varias coisas sobre mim tipo,Eu gosto de dar
+      grau,</p>
+    <p>Gosto de fazer esportes,Gosto também de ficar em casa com a minha familia,</p>
+    <p> Tenho 1 irmã 2 irmãos,E a maior parte do tempo eu passo dando grau de bike por que é uma
+      coisa que eu gosto de fazer desde pequeno</p>
+
+
+
+
+  </section>
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <ul>
+      <li>Projetos 1:<a href="#">Descrição 1</a></li>
+      <li>Projetos 2:<a href="#">Descrição 2</a></li>
+      <li>Projetos 3:<a href="#">Descrição 3</a></li>
+      <li>Projetos 4:<a href="#">Descrição 4</a></li>
+      <li>Projetos 5:<a href="#">Descrição 5</a></li>
+      <ul>
+  </section>
+  <section id="cadastro">
+  <h3>Cadastro De Pessoas</h3>
+  <form>
+    <label>Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+
+
+
+    <label>Email:</label>
+    <input type="Email" id="Email" name="Email" required>
+
+
+
+
+    <label>Telefone:</label>
+    <input type="Tel" id="Telefone" name="Telefone" required>
+    <input type="submit" value="Cadastrar">
+
+
+
+
+  </form>
+  </section>
+  <section id="contato">
+    <h2>contato</h2>
+    <p>Entre em contato comigo via <a href="mailto:heric_p_oliveira@estudante.sesisenai.org.br">email@exemplo.com</a>
+    </p>
+  </section>
+  <footer>
+    <p>&copy; 2024 - heric pilonetto de oliveira</p>
+  </footer>
+</body>
+
+
+
 
 </html>
+
